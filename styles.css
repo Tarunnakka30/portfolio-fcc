@@ -108,6 +108,18 @@
     color: white;
   }
 
+  /* Footer Section */
+
+  footer{
+    background-color: #303841;
+    color: white;
+    text-align: center;
+    font-size: 10px;
+    height: 20px;
+  }
+
+  /* Media Queries */
+
   @media screen and (max-width: 900px) {
     .column {
       width: 50%;
