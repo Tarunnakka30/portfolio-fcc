@@ -67,6 +67,13 @@
     text-align: center;
     font-size: 40px;
   }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
   .row,
   .row > .column {
     padding: 8px;
@@ -126,4 +133,9 @@
     }
   }
   
-  
+  /* Additional media query for smaller screens */
+  @media screen and (max-width: 600px) {
+    .column {
+    width: 50%;
+    }
+  }
